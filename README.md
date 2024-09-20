@@ -45,24 +45,18 @@ FitMindSet_UPAO es una plataforma diseñada para facilitar la adopción y el seg
 ## **Asignación de Historias de Usuario**
 Cada historia de usuario se asigna a un módulo y tiene un identificador único:
 
-- **Saavedra Arroyo Sebastián Alonso**:
-  - **Gestión de Usuarios**:
-    - Historia de Usuario 1-6: Registro, login, actualización y visualización de perfil, recuperación de credenciales.
-  - **Recursos**:
-    - Historia de Usuario 18-19: Acceso a biblioteca de recursos y visualización de progreso.
-
-- **Jimenez Atoche Sthefano Gabriel**:
-  - **Gestión de Usuarios**:
-    - Historia de Usuario 7-8: Preferencias de notificaciones y eliminación de cuenta.
-  - **Metas y Seguimiento**:
-    - Historia de Usuario 9-10: Establecimiento y modificación de metas de salud.
-
-- **Lescano Gutiérrez Jaime Rafael**:
-  - **Recursos**:
-    - Historia de Usuario 31-33: Comunicación con profesionales de la salud y gestión de recetas.
-
-- **Baylón Toledo Diogho Matteo**:
-  - **Pagos en Línea**:
-    - Historia de Usuario 21-22: Suscripción a contenido adicional y compra de recursos exclusivos.
+| **Integrante**                       | **ID**   | **Módulo**                  | **Historia de Usuario**                                                                                                                                     | **Tipo**   |
+|--------------------------------------|----------|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Saavedra Arroyo Sebastián Alonso     | EPC-1    | Gestión de Usuarios          | Como usuario quiero poder registrarme especificando mis objetivos de salud y preferencias para recibir recomendaciones personalizadas.                       | CRUD       |
+| Saavedra Arroyo Sebastián Alonso     | EPC-2    | Gestión de Usuarios          | Como usuario registrado quiero poder iniciar sesión con las credenciales para acceder a mi perfil y progreso.                                                | CORE       |
+| Saavedra Arroyo Sebastián Alonso     | EPC-3    | Gestión de Usuarios          | Como usuario quiero acceder a mi perfil con mi cuenta de correo electrónico para tener mayor seguridad.                                                      | CORE       |
+| Saavedra Arroyo Sebastián Alonso     | EPC-4    | Gestión de Usuarios          | Como usuario quiero poder recuperar mis credenciales para poder acceder nuevamente a mi perfil sin perder mi progreso en las metas de salud.                  | CORE       |
+| Saavedra Arroyo Sebastián Alonso     | EPC-5    | Gestión de Usuarios          | Como usuario quiero actualizar mi perfil para mantener mis datos personales y objetivos de salud al día.                                                     | CRUD       |
+| Jimenez Atoche Sthefano Gabriel      | EPC-7    | Gestión de Usuarios          | Como usuario quiero establecer preferencias de notificaciones para recibir recordatorios y motivaciones según mis necesidades.                               | CRUD/CORE  |
+| Jimenez Atoche Sthefano Gabriel      | EPC-8    | Gestión de Usuarios          | Como usuario quiero eliminar mi cuenta si ya no deseo utilizar la plataforma para de esta manera asegurar la privacidad de mis datos.                        | CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-11   | Metas y Seguimiento          | Como usuario quiero registrar lo que hago día a día en relación a mi dieta equilibrada y actividad física para mantener una organización de mis objetivos.   | CORE       |
+| Prieto Meléndez Alexander Antonio    | EPC-12   | Reportes                    | Como usuario quiero visualizar un reporte estadístico de mi progreso diario para identificar áreas de mejora y ajustar mis hábitos.                          | CORE       |
+| Baylón Toledo Diogho Matteo          | EPC-19   | Reportes/Seguimiento         | Como usuario quiero poder ver una barra de progreso que muestre mi avance hacia mis metas para tener una referencia visual rápida de mi desempeño.            | Reporte    |
+| Baylón Toledo Diogho Matteo          | EPC-21   | Pagos en Línea               | Como usuario quiero poder suscribirme a contenido adicional para tener acceso continuo a recursos especializados y mejorar mi experiencia en la plataforma.   | Pago CORE  |
 
 
