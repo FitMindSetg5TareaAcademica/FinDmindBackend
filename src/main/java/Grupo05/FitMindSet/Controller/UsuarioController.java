@@ -24,4 +24,13 @@ public class UsuarioController {
             return new ResponseEntity<>(null, HttpStatus.CONFLICT);
         }
     }
+    @PostMapping("/iniciar-sesion")
+    public ResponseEntity<Usuario> iniciarSesion(@RequestBody Usuario usuario) {
+        try {
+            Usuario usuarioAutenticado = usuarioService.iniciarSesion(usuario.getCorreo(), usuario.getContrasena());
+            return new ResponseEntity<>(usuarioAutenticado, HttpStatus.OK);
+        } catch (RuntimeException e) {
+            return new ResponseEntity<>(null, HttpStatus.UNAUTHORIZED);
+        }
+    }
 }
