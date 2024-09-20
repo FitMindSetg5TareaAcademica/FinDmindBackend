@@ -18,4 +18,12 @@ public class UsuarioService {
         }
         return usuarioRepository.save(usuario);
     }
+    public Usuario iniciarSesion(String correo, String contrasena) {
+        Usuario usuario = usuarioRepository.findByCorreo(correo);
+        if (usuario != null && usuario.getContrasena().equals(contrasena)) {
+            return usuario; // Autenticación exitosa
+        }
+        throw new RuntimeException("Credenciales incorrectas.");
+    }
 }
+
