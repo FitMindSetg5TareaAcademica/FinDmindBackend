@@ -28,12 +28,6 @@ FitMindSet_UPAO es una plataforma diseñada para facilitar la adopción y el seg
    - Espacios para compartir experiencias y recomendaciones.
    - Monitoreo del progreso colectivo.
 
-## **Estructura del Proyecto**
-- **/src**: Código fuente de la aplicación.
-- **/docs**: Documentación técnica y manuales de usuario.
-- **/tests**: Pruebas unitarias y de integración.
-- **/resources**: Recursos adicionales como imágenes, contenido educativo y materiales complementarios.
-
 ## **Tecnologías Utilizadas**
 - **Frontend**: ReactJS, HTML5, CSS3
 - **Backend**: Node.js, Express
@@ -58,5 +52,18 @@ Cada historia de usuario se asigna a un módulo y tiene un identificador único:
 | Prieto Meléndez Alexander Antonio    | EPC-12   | Reportes                    | Como usuario quiero visualizar un reporte estadístico de mi progreso diario para identificar áreas de mejora y ajustar mis hábitos.                          | CORE       |
 | Baylón Toledo Diogho Matteo          | EPC-19   | Reportes/Seguimiento         | Como usuario quiero poder ver una barra de progreso que muestre mi avance hacia mis metas para tener una referencia visual rápida de mi desempeño.            | Reporte    |
 | Baylón Toledo Diogho Matteo          | EPC-21   | Pagos en Línea               | Como usuario quiero poder suscribirme a contenido adicional para tener acceso continuo a recursos especializados y mejorar mi experiencia en la plataforma.   | Pago CORE  |
-
+| Baylón Toledo Diogho Matteo          | EPC-22   | Pagos en Línea               | Como usuario quiero poder comprar recursos exclusivos de manera individual para acceder a información especializada.                                          | Pago CORE  |
+| Prieto Meléndez Alexander Antonio    | EPC-23   | Gestión de Usuarios          | Como usuario quiero que la página web sea interactiva y fácil de usar para que mi experiencia sea rápida y sencilla al gestionar mis hábitos saludables.      | CORE       |
+| Prieto Meléndez Alexander Antonio    | EPC-24   | Recursos                    | Como usuario quiero que la página esté respaldada por expertos en el área para sentir confianza en la información que utilizo para mejorar mi salud.         | CORE       |
+| Prieto Meléndez Alexander Antonio    | EPC-25   | Pagos en Línea               | Como usuario quiero tener opciones de pago accesibles para que el proceso de suscripción sea conveniente y sin complicaciones.                               | CRUD       |
+| Jimenez Atoche Sthefano Gabriel      | EPC-26   | Recursos                    | Como usuario quiero filtros de recomendación sobre las horas del sueño, comidas y ejercicios para gestionar el hábito.                                      | CRUD       |
+| Jimenez Atoche Sthefano Gabriel      | EPC-27   | Recursos                    | Como usuario quiero que la página pueda descargar los recursos que tengo disponibles para optimizar mi tiempo y seguir mis hábitos para alcanzar mi meta.    | CORE       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-28   | Gestión de Usuarios          | Como usuario quiero registrar mi peso, altura y porcentaje de grasa para tener un registro de progreso según mi alimentación.                                | CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-29   | Metas y Seguimiento          | Como usuario quiero saber qué tipo de ejercicio puedo hacer según mis gustos y necesidades para que me sea menos difícil seguir con mis rutinas.             | CORE       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-30   | Pagos en Línea               | Como usuario quiero tener la opción de pagar la versión premium de la aplicación dependiendo de los planes que esta ofrece para pagar el que mejor me convenga.| CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-31   | Recursos                    | Como usuario quiero poder tener comunicación con un profesional de la salud en caso tenga un caso en particular para tener información específica.            | CORE       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-32   | Gestión de Usuarios          | Como usuario quiero poder registrar recetas en la aplicación para que sea más simple el registro de alimentos.                                               | CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-33   | Gestión de Usuarios          | Como usuario quiero gestionar mi espacio de recetas de platillos saludables.                                                                                 | CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-34   | Pagos en Línea               | Como usuario quiero poder tener acceso a la información de lo que ofrece la versión premium de la aplicación.                                                | CRUD       |
+| Lescano Gutiérrez Jaime Rafael       | EPC-35   | Recursos                    | Como usuario quiero tener acceso a un foro de usuarios para consultar, explicar y debatir sobre temas de la salud.                                           | CORE       |
 
